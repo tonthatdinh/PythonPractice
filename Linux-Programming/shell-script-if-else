@@ -1,0 +1,14 @@
+#!/bin/bash
+# My first script
+
+x=5
+if [ $x = 5 ]; then
+    echo "x equals 5.";
+fi 
+
+a=3
+if [ $a != 4 ]; then
+    echo "a not equals 4."
+else 
+    echo "a equals 4."
+fi
